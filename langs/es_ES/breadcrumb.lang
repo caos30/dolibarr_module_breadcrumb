@@ -1,0 +1,8 @@
+Module100000Name = Ruta de navegación
+Module100000Desc = Menú de ruta de navegación
+NeedAbricotOrUpdateAbricot = Este módulo necesita el Módulo Abricot para funcionar.
+BreadcrumbSetup = Configuración del Módulo de Ruta de Navegación
+
+# CONF 
+BREADCRUMB_TOOLTIPS = Se utiliza para el menú de ruta de navegación
+BREADCRUMB_NB_ELEMENT = Número de elementos mostrados

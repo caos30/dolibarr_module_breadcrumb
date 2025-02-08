@@ -42,9 +42,9 @@
 	overflow: hidden;
 	width:100%;
 	padding:5px 0;
-	border-top:1px solid #dedede;
-	border-bottom:1px solid #dedede;
-	background:#fff;
+	border-top:1px solid #ddd2;
+	border-bottom:1px solid #ddd2;
+	background:#8881;
 }
 .breadCrumb ul
 {
@@ -64,7 +64,7 @@
 	margin: 0px 6px 0px 0;
 	padding: 0px 10px 0px 0;
 	font-size: .9167em;
-	background: url(../img/Chevron.gif) no-repeat 100% 0;
+	background: url(../img/Chevron.png) no-repeat 100% 0;
 }
 .breadCrumb ul li div.chevronOverlay
 {
@@ -116,7 +116,7 @@
 .chevronOverlay
 {
 	display: none;
-	background: url(../img/ChevronOverlay.png) no-repeat 100% 0;
+	background: url(../img/ChevronOverlay-grey.png) no-repeat 100% 0;
 	width: 13px;
 	height: 20px;
 }

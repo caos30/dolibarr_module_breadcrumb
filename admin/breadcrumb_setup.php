@@ -91,7 +91,9 @@ $head = breadcrumbAdminPrepareHead();
 print dol_get_fiche_head($head, 'settings', 1, -1, "breadcrumb@breadcrumb" );
 
 if(!function_exists('setup_print_title')){
-    print '<div class="error" >'.$langs->trans('NeedAbricotOrUpdateAbricot').'</div>';
+    print '<div class="error" ><br />'.$langs->trans('NeedAbricotOrUpdateAbricot')
+			.'<br /><br /><i class="fa fa-hand-point-right"></i><a href="https://www.dolistore.com/product.php?id=941&title=abricot" target="_blank">https://www.dolistore.com/product.php?id=941&title=abricot</a>'
+			.'<br />&nbsp;</div>';
 } else {
 	// Setup page goes here
 	$form=new Form($db);
