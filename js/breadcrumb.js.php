@@ -106,7 +106,7 @@ $(document).ready(function() {
 <?php } else { ?>
 	$container = $('div#id-container').first();
 <?php } ?>
-	if($container.length == 0) {
+	if($container===undefined || $container.length == 0) {
           $container = $('body').first('div');
     }
 

@@ -55,13 +55,13 @@ class modBreadcrumb extends DolibarrModules
         // Module label (no space allowed)
         // used if translation string 'ModuleXXXName' not found
         // (where XXX is value of numeric property 'numero' of module)
-        $this->name = "Module100000Name"; //preg_replace('/^mod/i', '', get_class($this));
+        $this->name = "Module104899Name"; //preg_replace('/^mod/i', '', get_class($this));
         // Module description
         // used if translation string 'ModuleXXXDesc' not found
         // (where XXX is value of numeric property 'numero' of module)
-        $this->description = "Module100000Desc";
+        $this->description = "Module104899Desc";
         // Possible values for version are: 'development', 'experimental' or version
-        $this->version = '1.5.0';
+        $this->version = '1.5.1';
         // Key used in llx_const table to save module status enabled/disabled
         // (where MYMODULE is value of property name of module in uppercase)
         $this->const_name = 'MAIN_MODULE_' . strtoupper($this->name);
